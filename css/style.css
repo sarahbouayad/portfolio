@@ -206,9 +206,10 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 320px;
+  width: 300px;
   position: fixed;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
+  height: 100%;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -502,6 +503,17 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
+
+#colorlib-work{
+  float: right; 
+  width: 80%; 
+}
+
+#colorlib-skills{
+  float: right; 
+  width: 80%; 
+}
+
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-education,
@@ -525,7 +537,15 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 8em; } 
+    
+      #colorlib-work, #colorlib-skills, .colorlib-counters{
+        width: 100%;
+        float: none; 
+      } 
+    
+    
+    }
 
 .author-img {
   background-size: cover;
@@ -1158,7 +1178,15 @@ body.offcanvas {
 #colorlib-counter {
   position: relative;
   clear: both;
-  margin-bottom: 5em; }
+  margin-bottom: 5em; 
+  float:right; 
+  width: 80%;
+}
+
+.colorlib-contact{
+  float:right; 
+  width: 80%;
+}
 
 .colorlib-counters {
   padding: 3em 0;
@@ -1557,3 +1585,108 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+  /* media screens for my changes */
+  @media screen and (min-width: 1366px){
+    #colorlib-work{
+      width: 75%;
+      float: right; 
+    } 
+  }
+
+  @media screen and (min-width: 1350px){
+    #colorlib-skills, .colorlib-counters{
+      width: 77%;
+      float: right; 
+    } 
+    #colorlib-contact{
+      width: 77%; 
+    }
+  }
+
+
+  @media screen and (min-width: 1266px){
+    #colorlib-work{
+      width: 73%;
+      float: right; 
+    } 
+    #colorlib-counter{
+      width: 77%;
+      float: right; 
+    } 
+  }
+
+  @media screen and (min-width: 1179px){
+    #colorlib-work, #colorlib-skills{
+      width: 75%;
+      float: right; 
+    } 
+    #colorlib-counter{
+      width: 77%;
+      float: right; 
+    } 
+  }
+
+  @media screen and (min-width: 1177px){
+    #colorlib-work{
+      width: 69%;
+      float: right; 
+    }
+  }
+
+  @media screen and (min-width: 1163px){
+    #colorlib-skills{
+      width: 73%;
+      float: right; 
+    }
+    #colorlib-contact{
+      width: 73%; 
+    }
+  }
+
+  @media screen and (min-width: 974px){
+    #colorlib-skills{
+      width: 70%;
+      float: right;
+    }
+    #colorlib-contact{
+      width: 70%; 
+    }
+  }
+
+  @media screen and (min-width: 878px){
+    #colorlib-skills{
+      width: 65%;
+      float: right;
+    }
+    #colorlib-work{
+      width: 63%;
+      float: right; 
+    }
+    #colorlib-contact{
+      width: 65%;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    #colorlib-counter{
+      float:none; 
+      width: 100%; 
+    }
+    #colorlib-skills{
+    float: none;
+    margin-left: 1em;
+    }
+    #colorlib-work{
+    float: none; 
+    margin-left: 2em;
+    }
+
+    #colorlib-contact{
+      float: none; 
+      margin-left: 2em;
+    }
+
+    
+  }
