@@ -1688,6 +1688,17 @@ body.offcanvas {
       float: none; 
       margin-left: 2em;
     }
+  }
+  
+  @media screen and (min-width: 450px){
+    #colorlib-contact{
+      float: none; 
+      margin-left: 1em;
+    }
+  }
 
-    
+  @media screen and (min-width: 412px){
+    #colorlib-contact{
+      float: none; 
+    }
   }
