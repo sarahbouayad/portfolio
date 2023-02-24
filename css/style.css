@@ -1180,7 +1180,7 @@ body.offcanvas {
   clear: both;
   margin-bottom: 5em; 
   float:right; 
-  width: 80%;
+  width: 90%;
 }
 
 .colorlib-contact{
@@ -1670,9 +1670,10 @@ body.offcanvas {
   }
 
   @media screen and (min-width: 768px){
-    #colorlib-counter{
-      float:none; 
+    #colorlib-counter, #colorlib-counters{
+      float: none; 
       width: 100%; 
+
     }
     #colorlib-skills{
     float: none;
