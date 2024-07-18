@@ -503,6 +503,9 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
+section#colorlib-work{
+  width: 100%;
+}
 
 #colorlib-work{
   float: right; 
